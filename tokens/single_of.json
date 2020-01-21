@@ -1,0 +1,5 @@
+{
+	"token_name": "single_of",
+	"token_ast": "single_of = 'a single character of ' single_of+:characters ;",
+	"token_fct": "'[' + ''.join(str(t).strip() for t in tokens) + ']'"
+}

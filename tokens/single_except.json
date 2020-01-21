@@ -1,0 +1,5 @@
+{
+	"token_name": "single_except",
+	"token_ast": "single_except = 'a single character except ' single_except+:characters ;",
+	"token_fct": "return ('[^' + ''.join(str(t).strip() for t in tokens) + ']')"
+}
